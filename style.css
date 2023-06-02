@@ -1,0 +1,123 @@
+
+body{
+    background-color: rgb(195, 199, 201);
+    margin: auto 0px;
+}
+
+#pessoal p{
+    border-left: solid 5px rgba(24, 11, 11, 0.884) ;/*propiedade border*/
+    font-size: 13px; /*mudando o tamanho da fonte*/
+    margin-left: 10px;/*propiedade margin*/
+    padding: 2px;/*propiedade padding*/
+    text-align: justify;/*paragrafo justificado*/
+
+}
+
+
+h1{
+    text-align: center; 
+    border: solid 3px;
+    color:rgba(24, 11, 11, 0.884) ; /*trocando a cor da fonte*/
+    width: 25%;
+    margin: auto 40%;   
+}
+
+h3{
+    font-family: verdana;/*mudando o tipo da fonte*/
+    text-align: center;
+    text-decoration: underline;/*tiyulo sublinhado*/
+}
+
+img{
+    width:90px;
+    
+}
+
+#foto{
+    border: 2px solid black;
+    border-radius: 50%;/*borda arredondada*/
+    width: 100px;
+    margin: auto 20%;
+    margin-top: 10px;
+}
+
+#pessoal{
+    
+    background-color: rgba(127, 255, 212, 0.349);
+    height: 100% ;
+    position: absolute;
+    width: 18% ;
+    border-right: 1px solid black;
+
+    
+}
+
+#corpo{
+    float: right;/*classe float*/
+    margin-right: 30%; 
+}
+
+.horizontal{
+    border-bottom: 1px solid black;
+    width: 500px;
+    margin-bottom:  10px;
+}
+
+.mar_esquerda{
+    margin-left: 5px;
+}
+
+.nome{
+    font-size: 26px;
+    font-family: 'Courier New' ;
+    color: rgb(247, 247, 247);
+    background-color: rgba(8, 8, 8, 0.842) ;
+    border: 1px solid black;
+    width: 70%;
+    margin-left: 30%;
+    text-decoration: none;
+    
+}
+
+.conteudo{
+    background-color: rgba(127, 255, 212, 0.349) ;/*trocar a cor de fundo da classe*/
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 110%;
+    margin-left: 13%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.circulo{ /* Classe para criar níveis das habilidades */
+    float: inline-end;
+    
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgb(76, 44, 105);
+    margin-right: 5px;
+    float: left;
+    margin-top: 15px;
+}
+
+.tech{
+float: left;
+padding-left: 5px;
+    background-color: rgba(127, 255, 212, 0.349) ;/*trocar a cor de fundo da classe*/
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 110%;
+    margin-left: 13%;
+    margin-bottom: 10px;
+    }
+
+
+.tech p  { /* Definindo largura e flutuação a esquerda para os parágrafos
+    na tech */
+    width: 20%;
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+}
+
